@@ -50,7 +50,7 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:title="@string/prefedit_device_name_rc"
         android:summary="@string/prefedit_device_name_summary_rc"
         android:key="@string/pref_device_name"
-        android:defaultValue=""
+        android:defaultValue="15075-RC"
         />
 
     <org.firstinspires.ftc.robotcore.internal.ui.ColorListPreference
@@ -60,6 +60,7 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:entries="@array/app_theme_names"
         android:entryValues="@array/app_theme_tokens"
         app:colors="@array/app_theme_colors"
+        android:defaultValue="Purple"
         />
 
     <SwitchPreference
